@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E61DDF24-3DEB-49A2-8D27-E6D04105B28B}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,6 +24,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winton.DomainModelling.AspN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winton.DomainModelling.AspNetCore.Tests", "test\Winton.DomainModelling.AspNetCore.Tests\Winton.DomainModelling.AspNetCore.Tests.csproj", "{BF23E05F-9E4C-4C45-85D8-46D31C15D372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "src\TestApi\TestApi.csproj", "{709142DB-F5B6-4521-9C93-6CF50595C781}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winton.DomainModelling.Abstractions", "..\Winton.DomainModelling.Abstractions\src\Winton.DomainModelling.Abstractions\Winton.DomainModelling.Abstractions.csproj", "{832F3980-64B8-46F8-9F7E-541F1280F3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{BF23E05F-9E4C-4C45-85D8-46D31C15D372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF23E05F-9E4C-4C45-85D8-46D31C15D372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF23E05F-9E4C-4C45-85D8-46D31C15D372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709142DB-F5B6-4521-9C93-6CF50595C781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709142DB-F5B6-4521-9C93-6CF50595C781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709142DB-F5B6-4521-9C93-6CF50595C781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709142DB-F5B6-4521-9C93-6CF50595C781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832F3980-64B8-46F8-9F7E-541F1280F3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832F3980-64B8-46F8-9F7E-541F1280F3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832F3980-64B8-46F8-9F7E-541F1280F3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832F3980-64B8-46F8-9F7E-541F1280F3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +57,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{083025CE-85A8-4FED-BE30-9756B3947EE4} = {6BF06986-D228-4BDA-87B6-015792391C04}
 		{BF23E05F-9E4C-4C45-85D8-46D31C15D372} = {C4EF1CA3-45F0-47C6-B217-8418788BB088}
+		{709142DB-F5B6-4521-9C93-6CF50595C781} = {6BF06986-D228-4BDA-87B6-015792391C04}
+		{832F3980-64B8-46F8-9F7E-541F1280F3CF} = {6BF06986-D228-4BDA-87B6-015792391C04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82CC0AE5-734C-4261-B265-C8D93762962F}
